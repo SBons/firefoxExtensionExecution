@@ -1,0 +1,19 @@
+{
+
+    "description": "Hide google chat on click",
+    "manifest_version": 2,
+    "name": "HideChat",
+    "version": "1.0",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "page-16.png"
+        }
+    }
+  
+  }
